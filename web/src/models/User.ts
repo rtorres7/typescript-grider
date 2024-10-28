@@ -11,6 +11,7 @@ export interface UserProps {
 
 const rootUrl = 'http://localhost:3000/users';
 
+// using inheritance vs composition
 export class User extends Model<UserProps> {
   static buildUser(attrs: UserProps): User {
     return new User(

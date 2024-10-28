@@ -1,5 +1,6 @@
 import { AxiosPromise, AxiosResponse } from 'axios';
 
+// for interfaces use signature of the class
 interface ModelAttributes<T> {
   get<K extends keyof T>(key: K): T[K];
   set(value: T): void;
