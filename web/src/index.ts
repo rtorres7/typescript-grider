@@ -8,6 +8,7 @@ user8.on('change', () => {
 });
 user8.fetch();
 
+// // 180. Setting Data While Triggering
 // const user5 = new User({ id: '7tm3', name: 'Chloe', age: 24 });
 // console.log(user5.get('name'));
 // user5.on('change', () => {
@@ -16,12 +17,14 @@ user8.fetch();
 // user5.set({ age: 25 });
 // console.log(user5);
 
+// // 181. Fetching User Data
 // const user6 = new User({ id: 'ba87' });
 // user6.fetch();
 // user6.on('change', () => {
 //   console.log('change to user: ', user6);
 // });
 
+// // 182. Saving Data
 // const user7 = new User({ id: 'a931', name: 'Xander', age: 33 });
 // user7.save();
 // user7.on('save', () => {
